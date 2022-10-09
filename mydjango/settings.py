@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 urlsconf ='config/config.ini'
 config =ConfigParser()
 config.read(urlsconf)
-SECRET_KEY = config['SECRET_KEY']['secret_key']
+SECRET_KEY = 'django-insecure-!s%=ytx%xq7^#blrj$r0$py-#a3jwhd^se#pp6tcl_y_e)j#s0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
